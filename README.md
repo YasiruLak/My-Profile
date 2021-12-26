@@ -50,6 +50,12 @@ Copyright @ 2021 My Profile All Right Reserved By Yasiru Dahanayaka
 
 Your Name - [https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a](https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a) 
 
+My Personal Web Site Map : https://www.gloomaps.com/WvRMWpTRWR
+
+My Personal Web Wire Frame : https://wireframe.cc/EtABLj
+
+My Personal Web Mockup : https://www.figma.com/file/4Mi9Gi1ph4Pt56unERksye/Portfolio?node-id=0%3A1
+
 My Personal Profile : https://yasirudahanayaka2021.000webhostapp.com/
 
 Project Link: [https://github.com/YasiruLak/My-Profile](https://github.com/your_username/repo_name)
