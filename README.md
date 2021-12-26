@@ -50,9 +50,9 @@ Copyright @ 2021 My Profile All Right Reserved By Yasiru Dahanayaka
 
 Your Name - [https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a](https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a) 
 
-email@example.com
+My Personal Profile : https://yasirudahanayaka2021.000webhostapp.com/
 
-Project Link: [https://github.com/YasiruLak/Sight-Engineering](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/YasiruLak/My-Profile](https://github.com/your_username/repo_name)
 
 
 
