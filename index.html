@@ -10,9 +10,10 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="#919648" name="theme-color">
     <link href="assests/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="assests/css/normalize.css">
-    <link rel="stylesheet" href="assests/css/fonts/css/all.css">
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <link href="assests/css/fonts/css/all.css" rel="stylesheet">
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/cba6695e4b.js"></script>
+    <link href="https://unpkg.com/swiper@7/swiper-bundle.min.css" rel="stylesheet"/>
     <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 <body>
@@ -20,63 +21,62 @@
 <header>
     <nav>
         <ul>
-            <li> <a href="#home" class="active">Home</a></li>
-            <li> <a href="#service">Service</a></li>
-            <li> <a href="#skills" >Skills</a></li>
-            <li> <a href="#education" >Education</a></li>
-            <li> <a href="#project">Project</a></li>
-            <li> <a href="#gallery">Gallery</a></li>
-            <li> <a href="#contact">Contact</a></li>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-<!--    =============================homeContent====================================================-->
+    <!--    =============================homeContent====================================================-->
     <section class="homeContent" id="home">
-        <img src="assests/images/img.png" alt="">
-        <section>
+
+        <div class="imgDiv">
+            <img alt="" class="mainImage" src="assests/images/img.png">
+        </div>
+
+        <div class="infoDiv">
             <h2>YASIRU DAHANAYAKA</h2>
             <p>Full Stack Software Developer</p>
             <p>Galle, Sri Lanka</p>
-        </section>
+            <div class="row">
+                <div class="buttons">
+                    <a class="btn" href="">Download</a>
+                    <a class="btn hire-me" data-section-index="1" href="#contact">Hire Me</a>
+                </div>
+            </div>
+
+            <pre class="preText">
+                I am a Full Stack Software Developer & Web Designer
+                from Galle, Sri lanka who is 23 years old.
+                I'm also currently working on Fiver & FreeLancer
+                as a part time worker and always lookout for
+                expecting new projects to work on.
+                If you want to any Software solution please hire me.
+            </pre>
+            <div class="social-links">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-git"></i></a>
+                <a href=""><i class="fa fa-stack-overflow"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--    ===========================Service=====================================-->
+
+    <section class="serviceContent" id="service">
 
     </section>
 </main>
-<!--<main>-->
-<!--    <section>-->
-<!--        <section>-->
-
-<!--            <h1><b>YASIRU DAHANAYAKA</b></h1>-->
-
-<!--            <h3>Full Stack Software Engineer</h3>-->
-
-<!--            <h4>Galle, Sri Lanka</h4>-->
-
-<!--        </section>-->
-<!--        <section>-->
-
-
-<!--            <pre>-->
-<!--            I am a Full Stack Software Developer & Web Designer-->
-<!--            from Galle, Sri lanka who is 23 years old.-->
-<!--            I'm also currently working on Fiver & FreeLancer-->
-<!--            as a part time worker and always lookout for-->
-<!--            expecting new projects to work on.-->
-<!--            If you want to any Software solution please hire me.-->
-<!--        </pre>-->
-<!--        </section>-->
-<!--        <img alt="There was an error loading this image" height="350" src="assests/images/img.png">-->
-<!--        <div>-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/Facebook_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/Instagram_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/linkedin_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/YouTube_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/whatsapp_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/gmail_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/github_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/stackoverflow_48.png">-->
-<!--        </div>-->
 
 <!--    </section>-->
 <!--    <section>-->
@@ -347,6 +347,27 @@
 <!--    </nav>-->
 
 <!--</footer>-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
 
 </body>
 
