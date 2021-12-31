@@ -1,10 +1,13 @@
+
 /*===============================navigation Bar============================================*/
 
 header > nav {
-    /*position: absolute;*/
-    height: 8vh;
-    /*box-shadow: -2px 6px 9px -4px #fff;*/
-    background-color: #000000;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 40px;
+    transition: all 0.3s ease;
+    background: #000000;
 }
 
 header > nav > ul {
@@ -12,7 +15,6 @@ header > nav > ul {
     right: 50px;
     font-family: 'Alegreya Sans SC', sans-serif;
     list-style: none;
-
 }
 
 header > nav > ul > li {
@@ -37,7 +39,7 @@ header > nav > ul > li > a:hover {
 
 /*=============================homeContent====================================================*/
 .homeContent {
-    max-width: 100%;
+    max-width: 100vw;
     height: 92vh;
     background-color: #000000;
     display: flex;
@@ -45,17 +47,18 @@ header > nav > ul > li > a:hover {
 .imgDiv {
     background-color: #000000;
     max-width: 40%;
-    height: 92vh;
+    height: 100vh;
+    width: 100%;
 }
 .infoDiv {
     background-color: #000000;
     width: 100%;
-    /*max-width: 60%;*/
-    height: 92vh;
+    max-width: 60%;
+    height: 100vh;
 }
 .imgDiv .mainImage {
     position: relative;
-    top: 73px;
+    top: 100px;
     width: 477px;
     height: 333px;
 }
@@ -63,7 +66,7 @@ header > nav > ul > li > a:hover {
     /*right: 0;*/
     color: #ffffff;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-right: 100px;
     text-align: right;
     font-size: 35px;
@@ -89,7 +92,6 @@ header > nav > ul > li > a:hover {
     font-size: 20px;
     font-family: 'Alegreya SC', serif;
 }
-
 .infoDiv .row {
     display: -ms-flexbox;
     display: flex;
@@ -99,18 +101,15 @@ header > nav > ul > li > a:hover {
     margin-left: -15px;
     position: absolute;
 }
-
 .infoDiv .row .buttons {
     margin-top: 30px;
     margin-right: 30px;
 }
-
 .infoDiv .row .buttons .btn {
     margin-right: 10px;
     position: relative;
-    left: 270px;
+    left: 230px;
 }
-
 .btn {
     font-size: 15px;
     font-weight: 500;
@@ -126,13 +125,11 @@ header > nav > ul > li > a:hover {
     background-color: #FFC700;
     text-decoration: none;
 }
-
 .btn:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     background-color: #97CC00;
 }
-
 .infoDiv .preText{
     color: #ffffff;
     margin: 0;
@@ -142,13 +139,11 @@ header > nav > ul > li > a:hover {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
 }
-
 .social-links{
     margin-top: 10px;
     padding-right: 100px;
     text-align: right;
 }
-
 .social-links a{
     height: 30px;
     width: 30px;
@@ -163,18 +158,75 @@ header > nav > ul > li > a:hover {
     transition: all 0.3s ease;
     background-color: #FFC700;
 }
-
 .social-links a:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-
-
 /*=======================================Service=======================================*/
 
 .serviceContent{
-    max-width: 100%;
+    max-width: 100vw;
     height: 100vh;
     background-color: #000000;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #FFC700;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.box h2{
+    font-size: 17px;
+    text-align: center;
+    margin:10px;
+}
+
+.box p{
+    font-size: 10px;
+    text-align: center;
+    margin:10px;
+}
+
+.boxOne{
+    width: 700px;
+    height: 30px;
+    background-color: #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.text{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.serviceText{
+    top: 100vh;
+    left: 5vh;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Alike Angular', serif;
+    color: #FFC700;
 }
