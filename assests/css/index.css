@@ -57,10 +57,10 @@ header > nav > ul > li > a:hover {
     height: 100vh;
 }
 .imgDiv .mainImage {
-    position: relative;
-    top: 100px;
-    width: 477px;
-    height: 333px;
+    position: absolute;
+    bottom: 0;
+    width: 230px;
+    height: 340px;
 }
 .infoDiv h2 {
     /*right: 0;*/
@@ -201,12 +201,14 @@ header > nav > ul > li > a:hover {
     font-size: 17px;
     text-align: center;
     margin:10px;
+    font-family: 'Alike Angular', serif;
 }
 
 .box p{
     font-size: 10px;
     text-align: center;
     margin:10px;
+    font-family: 'Adamina', serif;
 }
 
 .boxOne{
@@ -246,6 +248,7 @@ header > nav > ul > li > a:hover {
     margin: 0;
     width: 260px;
     left: 300px;
+    font-family: 'Alike Angular', serif;
 }
 
 .serviceText{
@@ -258,7 +261,7 @@ header > nav > ul > li > a:hover {
 }
 
 .experienceText{
-    top: 150vh;
+    top: 155vh;
     left: 5vh;
     position: absolute;
     font-size: 18px;
@@ -286,6 +289,45 @@ header > nav > ul > li > a:hover {
     background-size: contain;
     top: 0;
     left: 10px;
+}
+
+.imgPos{
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}
+
+.imgWeb{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}
+
+.imgUiUx{
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}
+
+.imgMobile{
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}
+
+.experienceSeeMore{
+    font-size:  10px;
+    font-family: 'Acme', sans-serif;
+    position: absolute;
+    right: 0;
+    margin-right: 8px;
+    margin-top: 22px;
+}
+
+.experienceSeeMore:hover{
+    cursor: pointer;
+    font-size: 14px;
 }
 
 /*===========================================================Skills===========================================================*/
