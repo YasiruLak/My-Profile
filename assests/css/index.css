@@ -65,7 +65,7 @@ header > nav > ul > li > a:hover {
     z-index: 2;
     width: 50px;
     height: 50px;
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     color: dodgerblue;
     cursor: pointer;
@@ -83,8 +83,8 @@ header > nav > ul > li > a:hover {
 }
 
 .contactFixed > i:hover{
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
     cursor: pointer;
 }
 
@@ -93,18 +93,18 @@ header > nav > ul > li > a:hover {
 #home {
     max-width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #404040;
     display: flex;
     position: relative;
 }
 .imgDiv {
-    background-color: #000000;
+    background-color: #404040;
     max-width: 40%;
     height: 100vh;
     width: 100%;
 }
 .infoDiv {
-    background-color: #000000;
+    background-color: #404040;
     width: 100%;
     max-width: 60%;
     height: 100vh;
@@ -397,7 +397,7 @@ header > nav > ul > li > a:hover {
 #skills{
     max-width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #404040;
     position: relative;
 }
 
@@ -587,7 +587,7 @@ header > nav > ul > li > a:hover {
 #project{
     max-width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #404040;
     position: relative;
 }
 
@@ -708,10 +708,117 @@ header > nav > ul > li > a:hover {
 #contact{
     max-width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #404040;
     position: relative;
 }
 
+.contactForm{
+    position: relative;
+}
+
+.fullName{
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    background-color: #C4C4C4;
+    border-radius: 14px;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 110px;
+}
+
+.email{
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    background-color: #C4C4C4;
+    border-radius: 14px;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 190px;
+}
+
+.typeHere{
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    background-color: #C4C4C4;
+    border-radius: 14px;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 260px;
+}
+
+.formText{
+    color: #000000;
+    font-family: 'Alata', sans-serif;
+    margin-left: 14px;
+    margin-top: 12px;
+    font-size: 18px;
+    opacity: 70%;
+}
+.tp >i{
+    font-size: 54px;
+    color: #FFC700;
+    display: inline-block;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 810px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #404040;
+}
+
+.tp > p{
+    margin-left: 920px;
+    margin-top: -42px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 32px;
+    color: #eeeeee;
+}
+
+.em > i{
+    font-size: 54px;
+    color: #FFC700;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 810px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #404040;
+}
+
+.em > p{
+    margin-left: 920px;
+    margin-top: -44px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+    color: #eeeeee;
+}
+
+.tyh > i{
+    font-size: 54px;
+    color: #FFC700;
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 810px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #404040;
+}
+
+.tyh > pre{
+    margin-left: 786px;
+    margin-top: -86px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+    color: #eeeeee;
+}
 
 
 
@@ -741,7 +848,7 @@ footer > nav > ul {
 }
 
 footer > nav > ul > li {
-    padding: 12px 6px 0 6px;
+    padding: 6px 6px 0 6px;
     display: inline-block;
     transition: all 0.3s ease;
     font-size: 14px;
@@ -749,7 +856,7 @@ footer > nav > ul > li {
 
 footer > nav > ul > li > a {
     text-decoration: none;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
     margin-left: 13px;
     color: #fff;
     position: relative;
@@ -771,6 +878,7 @@ footer > nav > ul > li > a:hover {
     color: #eeeeee;
     margin: 0;
     padding-left: 450px;
+    padding-top: 6px;
     font-size: 42px;
     font-family: 'Roboto', sans-serif;
 }
@@ -787,7 +895,6 @@ footer > nav > ul > li > a:hover {
     padding-top: 10px;
     padding-right: 520px;
     text-align: right;
-
 }
 
 .footerLinks > i{
