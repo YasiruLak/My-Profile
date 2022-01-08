@@ -820,6 +820,37 @@ header > nav > ul > li > a:hover {
     color: #eeeeee;
 }
 
+.sendMe{
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+.sendMeBtn{
+    margin-right: 15px;
+    position: relative;
+    left: 530px;
+    top: 580px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 17px;
+    color: #000000;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    border-radius: 40px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #FFC700;
+    text-decoration: none;
+}
+
+.sendMeBtn:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: #97CC00;
+}
+
 
 
 
