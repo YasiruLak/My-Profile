@@ -20,7 +20,15 @@ header > nav > ul {
 header > nav > ul > li {
     padding: 0 4px 0 4px;
     display: inline-block;
-    font-size: 20px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+header > nav > ul > li:hover{
+    cursor: pointer;
+    color: #FFC700;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 header > nav > ul > li > a {
@@ -28,6 +36,7 @@ header > nav > ul > li > a {
     align-items: center;
     margin-left: 46px;
     color: #fff;
+    transition: all 0.3s ease;
     position: relative;
 }
 
@@ -42,13 +51,14 @@ header > nav > ul > li > a:hover {
     height: 50px;
     background: #eeeeee;
     position: fixed;
-    right: 50px;
+    right: 0;
     bottom: 50px;
     border-radius: 100px;
     padding: 0;
     align-items: center;
     display: flex;
     justify-content: center;
+    transition: all 0.3s ease;
     margin-right: 50px;
 }
 .contactFixed > i {
@@ -61,7 +71,20 @@ header > nav > ul > li > a:hover {
     align-items: center;
     display: flex;
     position: fixed;
+    transition: all 0.3s ease;
     justify-content: center;
+}
+
+.contactFixed:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.contactFixed > i:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    cursor: pointer;
 }
 
 
@@ -154,8 +177,8 @@ header > nav > ul > li > a:hover {
     text-decoration: none;
 }
 .btn:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
     background-color: #97CC00;
 }
 .infoDiv .preText{
@@ -189,8 +212,8 @@ header > nav > ul > li > a:hover {
 }
 
 .social-links a:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
     background-color: #97CC00;
 }
 
@@ -356,11 +379,14 @@ header > nav > ul > li > a:hover {
     font-family: 'Acme', sans-serif;
     position: absolute;
     right: 0;
-    margin-right: 8px;
+    margin-right: 12px;
     margin-top: 38px;
+    transition: all 0.3s ease;
 }
 
 .experienceSeeMore:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -477,81 +503,77 @@ header > nav > ul > li > a:hover {
 }
 
 .ijseLogo{
-    z-index: 1;
     position: absolute;
-    width: 140px;
-    height: 85px;
+    width: 220px;
+    height: 140px;
     background-size: contain;
-    margin-top: -368px;
-    margin-left: 60px;
+    margin-top: -598px;
+    margin-left: 50px;
 }
 
 .mahindaLogo{
-    z-index: 1;
     position: absolute;
-    width: 52px;
-    height: 52px;
+    width: 80px;
+    height: 80px;
     background-size: contain;
-    margin-top: -196px;
-    margin-left: 98px;
+    margin-top: -298px;
+    margin-left: 120px;
 }
 
 .ucscLogo{
-    z-index: 1;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-size: contain;
-    margin-top: -307px;
-    margin-left: 755px;
+    margin-top: -490px;
+    margin-left: 1135px;
 }
 
 .nagodaLogo{
-    z-index: 1;
     position: absolute;
-    width: 52px;
-    height: 52px;
+    width: 80px;
+    height: 80px;
     background-size: contain;
-    margin-top: -124px;
-    margin-left: 765px;
+    margin-top: -152px;
+    margin-left: 1160px;
 }
 
 .ijseInfo{
     position: absolute;
-    font-size: 12px;
+    font-size: 18px;
     color: #eeeeee;
     font-family: 'Aladin', cursive;
-    margin-top: -343px;
-    margin-left: 140px;
+    margin-top: -557px;
+    margin-left: 173px;
 }
 
 .nagodaInfo{
     position: absolute;
-    font-size: 12px;
+    font-size: 18px;
     color: #eeeeee;
     font-family: 'Aladin', cursive;
-    margin-top: -113px;
-    margin-left: 521px;
+    margin-top: -140px;
+    margin-left: 790px;
     text-align: right;
 }
 
 .uscsInfo{
     position: absolute;
-    font-size: 12px;
+    font-size: 18px;
     color: #eeeeee;
     font-family: 'Aladin', cursive;
-    margin-top: -279px;
-    margin-left: 410px;
+    margin-top: -450px;
+    margin-left: 620px;
     text-align: right;
 }
 
 .mahindaInfo{
     position: absolute;
-    font-size: 12px;
+    font-size: 18px;
     color: #eeeeee;
     font-family: 'Aladin', cursive;
-    margin-top: -192px;
-    margin-left: 140px;
+    margin-top: -290px;
+    margin-left: 173px;
 }
 
 
@@ -589,48 +611,90 @@ header > nav > ul > li > a:hover {
 
 .my1{
     position: absolute;
-    width: 24vw;
-    height: 87vh;
+    width: 20vw;
+    height: 78vh;
     background-size: cover;
-    margin-top: 50px;
-    margin-left: 10px
+    margin-top: 100px;
+    margin-left: 34px;
+    webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.my1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .my2{
     position: absolute;
-    width: 32vw;
-    height: 42vh;
+    width: 29vw;
+    height: 40vh;
     background-size: cover;
-    margin-top: 247px;
-    margin-left: 250px
+    margin-top: 376px;
+    margin-left: 371px;
+    webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.my2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .my3{
     position: absolute;
-    width: 37vw;
-    height: 47vh;
+    width: 34vw;
+    height: 44vh;
     background-size: cover;
-    margin-top: 50px;
-    margin-left: 548px;
+    margin-top: 78px;
+    margin-left: 810px;
+    webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.my3:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .my4{
     position: absolute;
-    width: 31vw;
-    height: 42vh;
+    width: 30vw;
+    height: 40vh;
     background-size: cover;
-    margin-top: 50px;
-    margin-left: 250px;
+    margin-top: 82px;
+    margin-left: 351px;
+    webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.my4:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .my5{
     position: absolute;
-    width: 29vw;
-    height: 37vh;
+    width: 28vw;
+    height: 36vh;
     background-size: cover;
-    margin-top: 268px;
-    margin-left: 569px;
+    margin-top: 396px;
+    margin-left: 860px;
+    webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
+
+.my5:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
 
 
 
