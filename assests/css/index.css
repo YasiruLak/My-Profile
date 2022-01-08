@@ -391,12 +391,12 @@ header > nav > ul > li > a:hover {
 /*===========================================================Education===========================================================*/
 .educationContent{
     max-width: 100vw;
-    max-height: 100vh;
+    height: 100vh;
     background-color: #000000;
 }
+
 .eduSection{
     position: absolute;
-
 }
 
 .eduBar{
@@ -422,8 +422,6 @@ header > nav > ul > li > a:hover {
     align-items: center;
     margin-left: -6px;
     margin-top: 57px;
-
-
 }
 
 .bollTwo{
@@ -571,6 +569,54 @@ header > nav > ul > li > a:hover {
     background-color: #000000;
 }
 
+.galleryImage{
+    position: relative;
+}
+
+.my1{
+    position: absolute;
+    width: 24vw;
+    height: 87vh;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 10px
+}
+
+.my2{
+    position: absolute;
+    width: 32vw;
+    height: 42vh;
+    background-size: cover;
+    margin-top: 247px;
+    margin-left: 250px
+}
+
+.my3{
+    position: absolute;
+    width: 37vw;
+    height: 47vh;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 548px;
+}
+
+.my4{
+    position: absolute;
+    width: 31vw;
+    height: 42vh;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.my5{
+    position: absolute;
+    width: 28vw;
+    height: 37vh;
+    background-size: cover;
+    margin-top: 268px;
+    margin-left: 556px;
+}
 
 
 
