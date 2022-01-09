@@ -402,10 +402,12 @@ header > nav > ul > li > a:hover {
 }
 
 .skillText{
-    top: 200vh;
-    left: 5vh;
     position: absolute;
-    font-size: 18px;
+    font-size: 22px;
+    color: #FFC700;
+    margin-top: 60px;
+    margin-left: 36px;
+    padding: 0;
     font-family: 'Alike Angular', serif;
     color: #FFC700;
 }
@@ -591,6 +593,74 @@ header > nav > ul > li > a:hover {
     position: relative;
 }
 
+.projectText{
+    position: absolute;
+    font-size: 22px;
+    color: #FFC700;
+    margin-top: 90px;
+    margin-left: 36px;
+    padding: 0;
+    font-family: 'Alike Angular', serif;
+    color: #FFC700;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.projectBox{
+    width: 280px;
+    height: 380px;
+    background-color: #FFC700;
+    margin-top: 170px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.projectBox:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #97CC00;
+}
+
+.projectBox > h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 16px;
+    font-family: 'Alike Angular', serif;
+}
+
+.img1{
+    position: absolute;
+    width: 280px;
+    height: 224px;
+}
+
+.img2{
+    position: absolute;
+    width: 280px;
+    height: 166px;
+    margin-top: 30px;
+}
+
+.img3{
+    position: absolute;
+    width: 280px;
+    height: 220px;
+}
+
+.img4{
+    position: absolute;
+    width: 280px;
+    height: 208px;
+}
 
 
 
