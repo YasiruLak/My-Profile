@@ -405,28 +405,502 @@ header > nav > ul > li > a:hover {
     position: absolute;
     font-size: 22px;
     color: #FFC700;
-    margin-top: 60px;
-    margin-left: 36px;
+    margin-top: 106px;
+    margin-left: 40px;
     padding: 0;
     font-family: 'Alike Angular', serif;
     color: #FFC700;
 }
 
 .java > img{
-    margin-top: 25vh;
-    margin-left: 5vw;
-    width: 35px;
-    height: 35px;
+    margin-top: 26vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
     position: absolute;
+    box-sizing: border-box;
 }
 
 .java > h5{
     position: absolute;
-    font-size: 12px;
+    font-size: 20px;
     color: #FFC700;
-    margin-top: 112px;
-    margin-left: 85px;
+    margin-top: 176px;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.javaLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 210px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.angular > img{
+    margin-top: 26vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.angular > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 176px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.angularLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 210px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.react > img{
+    margin-top: 26vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.react >h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 176px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reactLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 210px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.python > img{
+    margin-top: 26vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.python >h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 176px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pythonLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 210px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.lineOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.lineTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.lineTree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.lineFour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.mysql > img{
+    margin-top: 42vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.mysql > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 282px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mySqlLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 314px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.adobeXD > img{
+    margin-top: 42vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.adobeXD > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 282px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.xdLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 314px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.javascript > img{
+    margin-top: 42vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.javascript > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 282px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.javaScriptLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 314px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.nodeJS > img{
+    margin-top: 42vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.nodeJS > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 282px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nodeJsLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 314px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.illustrate > img{
+    margin-top: 60vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.illustrate > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 400px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.illustrateLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 434px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.photoshop > img{
+    margin-top: 60vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.photoshop > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 400px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photoshopLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 434px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.html > img{
+    margin-top: 60vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.html > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 400px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.htmlLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 434px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.css > img{
+    margin-top: 60vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.css > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 400px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cssLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 434px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.spring > img{
+    margin-top: 80vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.spring > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 530px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.springLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 568px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.flutter > img{
+    margin-top: 80vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.flutter > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 530px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flutterLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 568px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.figma > img{
+    margin-top: 80vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.figma > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 530px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.figmaLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 568px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.intelij > img{
+    margin-top: 80vh;
+    margin-left: -60px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.intelij > h5{
+    position: absolute;
+    font-size: 20px;
+    color: #FFC700;
+    margin-top: 530px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intelijLine{
+    width: 120px;
+    height: 6px;
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 568px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
 }
 
 /*===========================================================Education===========================================================*/
@@ -998,7 +1472,7 @@ footer > nav > ul > li > a:hover {
     text-align: right;
 }
 
-.footerLinks > i{
+.footerLinks > a> i{
     font-size: 42px;
     color: #FFC700;
     display: inline-block;
@@ -1010,7 +1484,7 @@ footer > nav > ul > li > a:hover {
     background-color: #000000;
 }
 
-.footerLinks > i:hover{
+.footerLinks > a> i:hover{
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
     background-color: #000000;
