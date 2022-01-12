@@ -307,7 +307,7 @@ header > nav > ul > li > a:hover {
     font-family: 'Alike Angular', serif;
 }
 
-.serviceText{
+.serviceText {
     position: absolute;
     font-size: 22px;
     color: #FFC700;
@@ -315,7 +315,6 @@ header > nav > ul > li > a:hover {
     margin-left: 36px;
     padding: 0;
     font-family: 'Alike Angular', serif;
-    color: #FFC700;
 }
 
 .experienceText{
@@ -326,7 +325,7 @@ header > nav > ul > li > a:hover {
     margin-left: 36px;
     padding: 0;
     font-family: 'Alike Angular', serif;
-    color: #FFC700;
+
 }
 
 .fiverr{
@@ -1165,11 +1164,10 @@ header > nav > ul > li > a:hover {
 .my1{
     position: absolute;
     width: 20vw;
-    height: 78vh;
+    height: 58vh;
     background-size: cover;
-    margin-top: 100px;
+    margin-top: 140px;
     margin-left: 34px;
-    webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -1182,11 +1180,10 @@ header > nav > ul > li > a:hover {
 .my2{
     position: absolute;
     width: 29vw;
-    height: 40vh;
+    height: 38vh;
     background-size: cover;
     margin-top: 376px;
     margin-left: 371px;
-    webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -1199,11 +1196,10 @@ header > nav > ul > li > a:hover {
 .my3{
     position: absolute;
     width: 34vw;
-    height: 44vh;
+    height: 42vh;
     background-size: cover;
     margin-top: 78px;
     margin-left: 810px;
-    webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -1216,11 +1212,10 @@ header > nav > ul > li > a:hover {
 .my4{
     position: absolute;
     width: 30vw;
-    height: 40vh;
+    height: 38vh;
     background-size: cover;
     margin-top: 82px;
     margin-left: 351px;
-    webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -1233,11 +1228,10 @@ header > nav > ul > li > a:hover {
 .my5{
     position: absolute;
     width: 28vw;
-    height: 36vh;
+    height: 34vh;
     background-size: cover;
     margin-top: 396px;
     margin-left: 860px;
-    webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
