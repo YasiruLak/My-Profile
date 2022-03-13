@@ -58,6 +58,15 @@ Assignment 10 : https://github.com/YasiruLak/RWAD-10
 
 ![Screenshot (46)](https://user-images.githubusercontent.com/80274745/149155123-0286f6bf-e852-459f-8cc8-cc8d11da79a3.png)
 
+Assignment 11 : https://github.com/YasiruLak/Js_Que
+
+![Screenshot (68)](https://user-images.githubusercontent.com/80274745/158066108-b2c50d71-1deb-42e3-9cbe-4d6a6947f538.png)
+
+Assignment 12 : https://github.com/YasiruLak/Kitt-Light
+
+![Screenshot (67)](https://user-images.githubusercontent.com/80274745/158066138-02727fb7-7602-416a-a220-4a72f5133e33.png)
+
+
 
 
 <!-- ROADMAP -->
