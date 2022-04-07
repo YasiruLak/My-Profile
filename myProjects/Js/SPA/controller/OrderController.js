@@ -116,7 +116,7 @@ $("#btnAddToCart").click(function (){
 });
 
 var tot = 0;
-var discount;
+var discount  = 0;
 function manageTotal(amount){
     tot+=amount;
     discount = $("#txtOrderDiscount").val();
@@ -127,6 +127,9 @@ function manageTotal(amount){
 
 function updateManageTotal(prvTotal,nowTotal) {
     tot -= prvTotal;
+    discount = $("#txtOrderDiscount").val();
+    discount = (tot / 100) * itemDiscount;
+    tot = tot-discount;
     tot += nowTotal;
 
     $("#txtSubTotal").val(tot);
@@ -231,6 +234,13 @@ function pushOrderDetail(){
 
         orderDetailDB.push(orderDetail);
     }
+}
+
+function orderCount(){
+    for (var i = 0; i < orderDB.length; i++) {
+
+    }
+    $("#orderCount").text(i);
 }
 
 

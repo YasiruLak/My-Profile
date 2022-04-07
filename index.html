@@ -1,637 +1,785 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <title>Yasiru Dahanayaka | Full Stack Developer</title>
-
-    <link href="assests/images/mainImg.JPG" rel="icon">
     <meta content="Yasiru, Dahanayaka, Software Engineer, Full Stack, Developer" name="keywords">
     <meta content="This is my personal portfolio I'm a Full Stack Developer" name="description">
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="#919648" name="theme-color">
-    <link href="assests/css/index.css" rel="stylesheet">
-    <link href="assests/css/normalize.css" rel="stylesheet">
-    <link href="assests/css/fonts/css/all.css" rel="stylesheet">
-    <script crossorigin="anonymous" src="https://kit.fontawesome.com/cba6695e4b.js"></script>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assests/style/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+    <!--    <script src="https://kit.fontawesome.com/cba6695e4b.js" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+          rel="stylesheet"/>
 </head>
 <body>
-<!--*===============================navigation Bar============================================-->
-<header>
-    <nav class="navBar">
-        <div class="max-width">
+<div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+</div>
+
+<nav class="navbar" id="navbar">
+    <div class="max-width">
+        <div class="logo"><a href="#">Ya<span>Si</span></a></div>
         <ul class="menu">
-            <li><a href="#home" class="menu-btn">Home</a></li>
-<!--            <li><a href="#about" class="menu-btn">About</a></li>-->
-            <li><a href="#service" class="menu-btn">Service</a></li>
-            <li><a href="#skills" class="menu-btn">Skills</a></li>
-            <li><a href="#education" class="menu-btn">Education</a></li>
-            <li><a href="#project" class="menu-btn">Projects</a></li>
-            <li><a href="#gallery" class="menu-btn">Gallery</a></li>
-            <li><a href="#contact" class="menu-btn">Contact</a></li>
+            <li><a class="menu-btn" href="#home">Home</a></li>
+            <li><a class="menu-btn" href="#about">About</a></li>
+            <li><a class="menu-btn" href="##education">Education</a></li>
+            <li><a class="menu-btn" href="#projects">Projects</a></li>
+            <li><a class="menu-btn" href="#skills">Skills</a></li>
+            <li><a class="menu-btn" href="#services">Services</a></li>
+            <li><a class="menu-btn" href="#gallery">Gallery</a></li>
+            <li><a class="menu-btn" href="#contact">Contact</a></li>
         </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
         </div>
-    </nav>
-</header>
-
-<main>
-    <div class="contactFixed">
-        <a href="#contact"><i class="fas fa-comments"></i></a>
     </div>
-    <!--    =============================homeContent====================================================-->
-    <section class="homeContent" id="home">
+</nav>
 
-        <div class="imgDiv">
-            <img alt="" class="mainImage" src="assests/images/img.png">
+<!--home section start-->
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <div class="text-1">Hello, my name is</div>
+            <div class="text-2">Yasiru Dahanayaka</div>
+            <div class="text-3">And I'm a <span class="typing"></span></div>
+            <a class="hire" href="#contact">Hire me</a>
         </div>
-
-        <div class="infoDiv">
-            <h2>YASIRU DAHANAYAKA</h2>
-            <p>Full Stack Software Developer</p>
-            <p>Galle, Sri Lanka</p>
-            <div class="row">
-                <div class="buttons">
-                    <a class="btn" href="">Download</a>
-                    <a class="btn hire-me" data-section-index="1" href="#contact">Hire Me</a>
-                </div>
-            </div>
-
-            <pre class="preText">
-                I am a Full Stack Software Developer & Web Designer
-                from Galle, Sri lanka who is 23 years old.
-                I'm also currently working on Fiver & FreeLancer
-                as a part time worker and always lookout for
-                expecting new projects to work on.
-                If you want to any Software solution please hire me.
-            </pre>
-            <div class="social-links">
-                <a href="https://www.facebook.com/profile.php?id=100005296216945"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/yasi_vixsens/"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a"><i class="fa fa-linkedin"></i></a>
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i class="fa fa-envelope"></i></a>
-                <a href="https://github.com/YasiruLak"><i class="fab fa-github"></i></a>
-                <a href="https://stackoverflow.com/users/14816490/yasiru-dahanayaka"><i
-                        class="fa fa-stack-overflow"></i></a>
-            </div>
-        </div>
-
-    </section>
-
-    <!--    ===========================Service=====================================-->
-
-    <section class="serviceContent" id="service">
-
-        <h3 class="serviceText">SERVICE</h3>
-        <div class="service">
-            <div class="box">
-                <h2>POS SYSTEM DEVELOPMENT</h2>
-                <p>Send me your requirement and i will create your own POS System for your business</p>
-                <img alt="" class="imgPos" src="assests/icon/spring-logo_48.png">
-                <img alt="" class="imgPos" src="assests/icon/java_48.png">
-                <img alt="" class="imgPos" src="assests/icon/mysql_logo_48.png">
-            </div>
-            <div class="box">
-                <h2>WEB DESIGNING</h2>
-                <p>Send me your requirement and i will create your own website</p>
-                <img alt="" class="imgWeb" src="assests/icon/html_5_48.png">
-                <img alt="" class="imgWeb" src="assests/icon/css3_48.png">
-                <img alt="" class="imgWeb" src="assests/icon/javascript_48.png">
-            </div>
-            <div class="box">
-                <h2>UI/ UX DESIGNING </h2>
-                <p>Send me your requirement and i will create your own UI/UX design</p>
-                <img alt="" class="imgUiUx" src="assests/icon/figma_128.png">
-                <img alt="" class="imgUiUx" src="assests/icon/adobe_xd_48.png">
-                <img alt="" class="imgUiUx" src="assests/icon/adobe_photoshop_48.png">
-            </div>
-            <div class="box">
-                <h2>Mobile App Development</h2>
-                <p>Send me your requirement and i will give you solution for your problem</p>
-                <img alt="" class="imgMobile" src="assests/icon/react.png">
-                <img alt="" class="imgMobile" src="assests/icon/angularjs_48.png">
-                <img alt="" class="imgMobile" src="assests/icon/flutter.png">
-            </div>
-        </div>
-
-        <h3 class="experienceText">EXPERIENCE</h3>
-
-        <div>
-            <div class="boxOne">
-                <img alt="styleSheet" class="fiverr" src="assests/images/fiverr.png">
-                <h4 class="text">Work as Freelancer Since 2019</h4>
-                <h5 class="experienceSeeMore">See more..</h5>
-            </div>
-            <div class="boxTwo">
-                <img alt="styleSheet" class="freelance" src="assests/images/freelancer.png">
-                <h4 class="text">Work as Freelancer Since 2019</h4>
-                <h5 class="experienceSeeMore">See more..</h5>
-            </div>
-        </div>
-    </section>
-    <section class="skillContent" id="skills">
-        <h3 class="skillText">I WORK WITH</h3>
-        <section class="lineOne">
-            <div class="java">
-                <img alt="" src="assests/icon/java_48.png">
-                <h5>JAVA</h5>
-                <div class="javaLine"></div>
-            </div>
-            <div class="angular">
-                <img alt="" src="assests/icon/angularjs_48.png">
-                <h5>ANGULAR</h5>
-                <div class="angularLine"></div>
-            </div>
-            <div class="react">
-                <img alt="" src="assests/icon/react.png">
-                <h5>REACT NATIVE</h5>
-                <div class="reactLine"></div>
-            </div>
-            <div class="python">
-                <img alt="" src="assests/icon/python_48.png">
-                <h5>PYTHON</h5>
-                <div class="pythonLine"></div>
-            </div>
-        </section>
-        <section class="lineTwo">
-            <div class="mysql">
-                <img alt="" src="assests/icon/mysql_logo_48.png">
-                <h5>MYSQL</h5>
-                <div class="mySqlLine"></div>
-            </div>
-            <div class="javascript">
-                <img alt="" src="assests/icon/javascript_48.png">
-                <h5>JAVASCRIPT</h5>
-                <div class="javaScriptLine"></div>
-            </div>
-            <div class="adobeXD">
-                <img alt="" src="assests/icon/adobe_xd_48.png">
-                <h5>ADOBE XD</h5>
-                <div class="xdLine"></div>
-            </div>
-            <div class="nodeJS">
-                <img alt="" src="assests/icon/nodeJS.png">
-                <h5>Node JS</h5>
-                <div class="nodeJsLine"></div>
-            </div>
-        </section>
-        <section class="lineTree">
-            <div class="illustrate">
-                <img alt="" src="assests/icon/adobe_illustrator_48.png">
-                <h5>ILLUSTRATE</h5>
-                <div class="illustrateLine"></div>
-            </div>
-            <div class="photoshop">
-                <img alt="" src="assests/icon/adobe_photoshop_48.png">
-                <h5>PHOTOSHOP</h5>
-                <div class="photoshopLine"></div>
-            </div>
-            <div class="html">
-                <img alt="" src="assests/icon/html_5_48.png">
-                <h5>HTML 5</h5>
-                <div class="htmlLine"></div>
-            </div>
-            <div class="css">
-                <img alt="" src="assests/icon/css3_48.png">
-                <h5>CCS 3</h5>
-                <div class="cssLine"></div>
-            </div>
-        </section>
-        <section class="lineFour">
-            <div class="spring">
-                <img alt="" src="assests/icon/spring-logo_48.png">
-                <h5>SPRING</h5>
-                <div class="springLine"></div>
-            </div>
-            <div class="flutter">
-                <img alt="" src="assests/icon/flutter.png">
-                <h5>FLUTTER</h5>
-                <div class="flutterLine"></div>
-            </div>
-            <div class="figma">
-                <img alt="" src="assests/icon/figma_128.png">
-                <h5>FIGMA</h5>
-                <div class="figmaLine"></div>
-            </div>
-            <div class="intelij">
-                <img alt="" src="assests/icon/intellij_idea_128.png">
-                <h5>INTELIJ IDEA</h5>
-                <div class="intelijLine"></div>
-            </div>
-        </section>
-
-
-    </section>
-    <section class="educationContent" id="education">
-        <section class="eduSection">
-            <div class="eduBar">
-                <div class="bollOne"></div>
-                <div class="bollTwo"></div>
-                <div class="bollThree"></div>
-                <div class="bollFour"></div>
-            </div>
-            <section class="eduInfo">
-                <pre class="mahindaInfo">
-                    Secondary Education
-                    Mahinda Colleage Galle
-                    2014 - 2017
-                </pre>
-                <img alt="" class="mahindaLogo" src="assests/images/mahinda.png">
-                <pre class="ijseInfo">
-                    Diploma In Software Engineering
-                    Institute of Software Engineering
-                    2021 - 2022
-                </pre>
-                <img alt="" class="ijseLogo" src="assests/images/ijse.png">
-            </section>
-            <section class="eduInfo">
-                <pre class="nagodaInfo">
-                    Primary Education
-                    Royal Colleage Nagoda
-                    2004 - 2014
-                </pre>
-                <img alt="" class="nagodaLogo" src="assests/images/nagoda.png">
-                <pre class="uscsInfo">
-                    Undergraduate
-                    Bachelor of Information Technology (BIT)
-                    University of Colombo (UCSC)
-                    2019 - 2023
-                </pre>
-                <img alt="" class="ucscLogo" src="assests/images/ucsc.png">
-            </section>
-
-        </section>
-    </section>
-    <section class="projectContent" id="project">
-        <h3 class="projectText">PROJECT AND ASSIGNMENT</h3>
-        <div class="project">
-            <a href="https://github.com/YasiruLak/Simple-Parcking-System">
-                <div class="projectBox">
-                    <h2>VEHICLE PARKING SYSTEM</h2>
-                    <img alt="" class="img1" src="assests/images/parking_system.png">
-                </div>
+        <div class="social">
+            <a class="social-icon" href="https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a" target="_blank">
+                <i class="uil uil-linkedin-alt"></i>
             </a>
-            <a href="https://github.com/YasiruLak/Sight-Engineering">
-                <div class="projectBox">
-                    <h2>CONSTRUCTION GRN MANAGEMENT</h2>
-                    <img alt="" class="img2" src="assests/images/sight_Engineering.png">
-                </div>
+            <a class="social-icon" href="https://www.instagram.com/yash_dahanayaka/" target="_blank">
+                <i class="uil uil-instagram"></i>
             </a>
-            <a href="https://github.com/YasiruLak/Layerd-POS">
-                <div class="projectBox">
-                    <h2>SUPERMARKET POS SYSTEM</h2>
-                    <img alt="" class="img3" src="assests/images/pos.png">
-                </div>
+            <a class="social-icon" href="https://dribbble.com/yasiru1998" target="_blank">
+                <i class="uil uil-dribbble"></i>
             </a>
-            <a href="https://github.com/YasiruLak/Sipsewana">
-                <div class="projectBox">
-                    <h2>STUDENT MANAGEMENT SYSTEM</h2>
-                    <img alt="" class="img4" src="assests/images/student_management.png">
-                </div>
+            <a class="social-icon" href="https://github.com/YasiruLak" target="_blank">
+                <i class="uil uil-github-alt"></i>
             </a>
         </div>
-
-    </section>
-    <section class="galleryContent" id="gallery">
-        <section class="galleryImage">
-            <img alt="" class="my1" src="assests/images/my1.JPG">
-            <img alt="" class="my2" src="assests/images/my2.JPG">
-            <img alt="" class="my3" src="assests/images/my3.JPG">
-            <img alt="" class="my4" src="assests/images/my4.JPG">
-            <img alt="" class="my5" src="assests/images/my5.JPG">
-        </section>
-    </section>
-    <section class="contactContent" id="contact">
-        <section class="contactForm">
-            <div class="fullName">
-                <p class="formText">Full Name</p>
-            </div>
-            <div class="email">
-                <p class="formText">Email</p>
-            </div>
-            <div class="typeHere">
-                <p class="formText">Type Here</p>
-            </div>
-            <div class="sendMe">
-                <a class="sendMeBtn" href="#contact">Send Me</a>
-            </div>
-        </section>
-        <section class="contactInfo">
-            <div class="tp">
-                <i class="fas fa-phone-alt"></i>
-                <p>076 - 83 83 493</p>
-            </div>
-            <div class="em">
-                <i class="fas fa-envelope"></i>
-                <p>yasirudahanayaka19@fmail.com</p>
-            </div>
-            <div class="tyh">
-                <i class="fas fa-map-marker-alt"></i>
-                <pre>
-                    Yasiru Dahanayaka,
-                    Paranathanayamgoda,
-                    Mapalagama,
-                    Galle,
-                    Sri Lanka.
-                </pre>
-            </div>
-        </section>
-    </section>
-</main>
-<footer>
-    <div>
-        <h5 class="footerName">YASIRU DAHANAYAKA</h5>
-        <p class="copyRight">Copyright 2021 All Right Reserved By Yasiru Dahanayaka</p>
     </div>
-    <div class="footerLinks">
-        <a href="https://www.facebook.com/profile.php?id=100005296216945"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/yasi_vixsens/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.youtube.com/channel/UCbvzSU2PG2m_y5ie8tDAkmw"><i class="fab fa-youtube"></i></a>
-        <a href="https://github.com/YasiruLak"><i class="fab fa-github"></i></a>
+</section>
+
+<!--about section start-->
+
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img alt="" src="assests/image/aboutImg.JPG">
+            </div>
+            <div class="column right">
+                <div class="text">I'm Yasiru and I'm a <span class="typing-2"></span></div>
+                <p>24 years old and still studying. lives in Down South in Sri Lanka. </p>
+                <p>I am a software engineering student in Institute of Java Software Engineering.
+                    Bs'c in Information Communication Technology University of Colombo Faculty of Computing (BIT)</p>
+                <p>I am currently working on Freelance Thanks for dropping by, I like to Code and Learn to build the
+                    next generation applications.</p>
+                <a href="assests/pdf/YASIRU%20DAHANAYAKA.pdf">Download CV</a>
+                <div class="about-info">
+                    <div>
+                        <span class="about-info-title">04</span>
+                        <span class="about-info-name">Years <br>experience</span>
+                    </div>
+                    <div>
+                        <span class="about-info-title">15</span>
+                        <span class="about-info-name">Completed <br>projects</span>
+                    </div>
+                    <div>
+                        <span class="about-info-title">03</span>
+                        <span class="about-info-name">Clients <br>Services</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <nav>
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+</section>
+
+<!--education section start-->
+
+<section class="education" id="#education">
+    <div class="max-width">
+        <h2 class="title">My Educations</h2>
+        <div class="education-content">
+            <div class="qualification-content qualification-active" data-content id="education1">
+                <!--                content 1-->
+                <div class="qualification-content">
+                    <!--                    education data 1-->
+                    <div class="qualification-data">
+                        <div>
+                            <h3 class="qualification-title">Bs'c in Information Technology (BIT)</h3>
+                            <span class="qualification-subtitle">University of Colombo</span>
+                            <div class="qualification-calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021 - 2023
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                    </div>
+                    <!--                    education data 2-->
+                    <div class="qualification-data">
+                        <div></div>
+                        <div>
+                            <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification-title">Dip in Computer Science</h3>
+                            <span class="qualification-subtitle">Institute of Software Engineering</span>
+                            <div class="qualification-calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021 - 2023
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    education data 3-->
+                    <div class="qualification-data">
+                        <div>
+                            <h3 class="qualification-title">Advanced Level</h3>
+                            <span class="qualification-subtitle">Mahinda Collage Galle</span>
+                            <div class="qualification-calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2014 - 2017
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                    </div>
+                    <!--                    education data 4-->
+                    <div class="qualification-data">
+                        <div></div>
+                        <div>
+                            <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification-title">Ordinary Level</h3>
+                            <span class="qualification-subtitle">Royal Collage Nagoda</span>
+                            <div class="qualification-calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2004 - 2014
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--projects section start-->
+
+<section class="projects" id="projects">
+    <div class="max-width">
+        <h2 class="title">My projects</h2>
+        <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/sight_Engineering.png">
+                    <div class="text">Construction GRN Management</div>
+                    <p>It's create for Sight Engineering construction company. first semester final project.
+                        I am happily inform for that I got an A. It can manage stock, employee, vehicle, supplier,
+                        mark issued equipment and return equipment and payment.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/parking_system.png">
+                    <div class="text">Saman Rice Vehicle Parking</div>
+                    <p>It's create for Saman Rice company. Vehicle parking management system. Can indicate parking port.
+                        can view available vehicle, can view left vehicle and there left time and date. It's array based
+                        on memory system.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/student_management.png">
+                    <div class="text">Sipsewana Management</div>
+                    <p>It's create for Sipsewana Educational Institute. Student CRUD operation. Courses CRUD operation.
+                        Payment CRUD operation and admin can manage all operations Using Technology is mysql, java,
+                        javaFX, hibernate, css3</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/pos.png">
+                    <div class="text">Supermarket POS System</div>
+                    <p>It's create for Supermarket. for my JDBC connectivity final course work. It can manage customers,
+                        manage items,
+                        view all reports, manage orders and can view order details. Using Technology is mysql, java,
+                        javaFX, css3</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad1.png">
+                    <div class="text">RWAD 01</div>
+                    <p>CSS Layout Assignment 1. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad2.png">
+                    <div class="text">RWAD 02</div>
+                    <p>CSS Layout Assignment 2. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad3.png">
+                    <div class="text">RWAD 03</div>
+                    <p>CSS Layout Assignment 3.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad4.png">
+                    <div class="text">RWAD 04</div>
+                    <p>CSS Layout Assignment 4.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad5.png">
+                    <div class="text">RWAD 05</div>
+                    <p>CSS Transition Assignment 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad6.png">
+                    <div class="text">RWAD 06</div>
+                    <p>CSS Transition Assignment 2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad7.png">
+                    <div class="text">RWAD 07</div>
+                    <p>CSS Animation Assignment 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad8.png">
+                    <div class="text">RWAD 08</div>
+                    <p>CSS Animation Assignment 2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad9.png">
+                    <div class="text">RWAD 09</div>
+                    <p>CSS Animation Assignment 3.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/rwad10.png">
+                    <div class="text">RWAD 10</div>
+                    <p>CSS Animation Assignment 4.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/que.png">
+                    <div class="text">QUE</div>
+                    <p>JavaScript Assignment 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/kitt.png">
+                    <div class="text">Knight</div>
+                    <p>JavaScript Assignment 2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img alt="" src="assests/image/spa.png">
+                    <div class="text">SPA</div>
+                    <p>JavaScript Assignment 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--skills section start-->
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & expriences</div>
+                <p>I have been successfully completed a number of projects in my working period and have received good
+                    feedback.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="column right">
+
+                <!--                frontend-->
+
+                <div class="skills-content2 skills-open">
+                    <div class="skills-header">
+                        <i class="uil uil-brackets-curly skills-icon"></i>
+                        <div>
+                            <div class="skills-title">Frontend Develop</div>
+                            <span class="skills-subtitles">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+                    <div class="skills-list-grid">
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">HTML</div>
+                                <span class="skills-number">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-html"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">CSS</div>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-css"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">JavaScript</div>
+                                <span class="skills-number">70%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-js"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Angular</div>
+                                <span class="skills-number">60%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-angular"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">React</div>
+                                <span class="skills-number">65%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-react"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--                backend-->
+
+                <div class="skills-content2 skills-close">
+                    <div class="skills-header">
+                        <i class="uil uil-server-network-alt skills-icon"></i>
+                        <div>
+                            <div class="skills-title">Backend Develop</div>
+                            <span class="skills-subtitles">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+                    <div class="skills-list-grid">
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Java</div>
+                                <span class="skills-number">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-java"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Node Js</div>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-node"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Firebase</div>
+                                <span class="skills-number">70%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-firebase"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Hibernate</div>
+                                <span class="skills-number">60%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-hibernate"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Spring</div>
+                                <span class="skills-number">65%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-spring"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--                ui/ux-->
+
+                <div class="skills-content2 skills-close">
+                    <div class="skills-header">
+                        <i class="uil uil-swatchbook skills-icon"></i>
+                        <div>
+                            <div class="skills-title">UI/UX Design</div>
+                            <span class="skills-subtitles">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+                    <div class="skills-list-grid">
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Adobe XD</div>
+                                <span class="skills-number">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-xd"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Figma</div>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-figma"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Photoshop</div>
+                                <span class="skills-number">70%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-ps"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Sketch</div>
+                                <span class="skills-number">60%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-sketch"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <div class="skills-name">Illustrate</div>
+                                <span class="skills-number">65%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage skills-illusatrate"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--services section start-->
+
+<section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">My Services</h2>
+        <div class="serv-content">
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="text">Web App Development</div>
+                    <p>Web application makes your business functions more speedy. Develop web applications for your
+                        business</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div class="text">Mobile App Development</div>
+                    <p>Mobile applications allow your brand to appear on the fingertips of your customers.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="text">Stand Alone Application</div>
+                    <p>Stand alone app makes your business functions more speedy. Develop web app for your
+                        business</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Embeded System</div>
+                    <p> Thus, we are creating embedded systems that have the potential to
+                        have a big impact on other people.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fab fa-sketch"></i>
+                    <div class="text">UI/UX Designing</div>
+                    <p>Design your awesome user inter face and user experience. It's makes your business functions more
+                        attractive and colourful </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="text">Digital Marketing</div>
+                    <p>We implement unique digital marketing campaigns using our expertise on Artificial Intelligence,
+                        deep learning technologies.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-gamepad"></i>
+                    <div class="text">Game Development</div>
+                    <p>Develop your dream mobile game with the latest technologies. meet the passionate game developers
+                        and get your work done.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-laptop"></i>
+                    <div class="text">IOT App Solution</div>
+                    <p>IOT solutions drive innovation across industries looking for growth opportunities and operational
+                        efficiencies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--gallery section start-->
+
+<section class="gallery" id="gallery">
+    <div class="max-width">
+        <h2 class="title">Gallery</h2>
+        <div class="wrapper">
+            <nav>
+                <div class="items">
+                    <span class="item active" data-name="all">All</span>
+                    <span class="item" data-name="work">Work</span>
+                    <span class="item" data-name="ui">UI/UX</span>
+                    <span class="item" data-name="photography">Photography</span>
+                    <span class="item" data-name="travel">Travel</span>
+                </div>
+            </nav>
+
+            <!--            filter images-->
+            <div class="gallery-1">
+                <div class="image1" data-name="work"><span><img alt="" src="assests/image/work%20(1).jpg"></span></div>
+                <div class="image1" data-name="photography"><span><img alt="" src="assests/image/photograp1.JPG"></span>
+                </div>
+                <div class="image1" data-name="work"><span><img alt="" src="assests/image/work%20(2).JPG"></span></div>
+                <div class="image1" data-name="travel"><span><img alt="" src="assests/image/travel1.JPG"></span></div>
+                <div class="image1" data-name="travel"><span><img alt="" src="assests/image/travel2.JPG"></span></div>
+                <div class="image1" data-name="work"><span><img alt="" src="assests/image/work%20(3).jpg"></span></div>
+                <div class="image1" data-name="ui"><span><img alt="" src="assests/image/ui2.png"></span></div>
+                <div class="image1" data-name="ui"><span><img alt="" src="assests/image/ui1.png"></span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section start -->
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p>Hurry up!. Please call us or email contact form and, I will be happy to assist you. I work with you,
+                    not for you.</p>
+                <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Yasiru Dahanayak</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Mapalagama, Galle</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="info">
+                            <div class="head">Mobile</div>
+                            <div class="sub-title">076-8383493</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">yasirudahanayaka19@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Message me</div>
+                <form action="https://formspree.io/f/mzboalkk" method="POST">
+                    <div class="fields">
+                        <div class="field name">
+                            <label for="username">
+                                <input id="username" name="username" placeholder="Name" required type="text">
+                            </label>
+                        </div>
+                        <div class="field email">
+                            <label for="email">
+                                <input id="email" name="email" placeholder="Email" required type="email">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="subject">
+                            <input id="subject" name="subject" placeholder="Subject" required type="text">
+                        </label>
+                    </div>
+                    <div class="field textarea">
+                        <label for="textara">
+                            <textarea cols="30" id="textara" name="textara" placeholder="Message.." required
+                                      rows="10"></textarea>
+                        </label>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer section start-->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <div>
+                    <div class="logo"><a href="#">Ya<span>Si</span></a></div>
+                    <p>Contact our experienced team to implement a software solution for business</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/yasiru-dahanayaka-8bb47319a"><i class="uil uil-linkedin"></i></a>
+                        <a href="https://www.instagram.com/yash_dahanayaka/"><i class="uil uil-instagram"></i></a>
+                        <a href="https://dribbble.com/yasiru1998"><i class="uil uil-dribbble"></i></a>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                        <a href="#"><i class="uil uil-facebook"></i></a>
+                        <a href="https://github.com/YasiruLak"><i class="uil uil-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Web Develop</a></li>
+                    <li><a href="#services">Mobile Develop</a></li>
+                    <li><a href="#services">Stand Alone Application</a></li>
+                    <li><a href="#services">Embeded System</a></li>
+                    <li><a href="#services">UI/UX Designing</a></li>
+                    <li><a href="#services">Digital Marketing</a></li>
+                    <li><a href="#services">Game Development</a></li>
+                    <li><a href="#services">IOT App Solution</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="##education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Address</h4>
+                <ul class="address">
+                    <li><a href="#">Yasiru Dahanayaka</a></li>
+                    <li><a href="#">Paranathanayamgoda</a></li>
+                    <li><a href="#">Mapalagama</a></li>
+                    <li><a href="#">Galle</a></li>
+                    <li><a href="#">Sri Lanka</a></li>
+                    <li><a href="#">80114</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2022. All Right Reserved By Yasiru Dahanayaka </p>
+    </div>
 </footer>
-
-<!--    </section>-->
-<!--    <section>-->
-<!--        <section>-->
-<!--            <h2><u>SERVICE</u></h2>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <nav>-->
-<!--                <img alt="There was an error loading this image" height="48" src="assests/icon/back_48.png">-->
-<!--                <img alt="There was an error loading this image" height="48" src="assests/icon/forward_48.png">-->
-
-<!--            </nav>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <h3>POS SYSTEM DEVELOPMENT</h3>-->
-<!--            <pre>-->
-<!--            Send me your requirement-->
-<!--            and i will create your own POS System-->
-<!--            for your business-->
-<!--        </pre>-->
-<!--            <img alt="There was an error loading this image" height="30" src="assests/icon/spring-logo_48.png">-->
-<!--            <img alt="There was an error loading this image" height="30" src="assests/icon/mysql_logo_48.png">-->
-<!--            <img alt="There was an error loading this image" height="30" src="assests/icon/java_48.png">-->
-
-<!--            <h5>see more>></h5>-->
-
-<!--            <h2>WEB DESIGNING</h2>-->
-<!--            <pre>-->
-<!--            Send me your requirement-->
-<!--            and i will create your own POS System-->
-<!--            for your business-->
-<!--        </pre>-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/html_5_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/css3_48.png">-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/javascript_48.png">-->
-
-<!--            <h4>see more>></h4>-->
-
-<!--            <h3>UI/UX DESIGNING</h3>-->
-<!--            <pre>-->
-<!--            Send me your requirement-->
-<!--            and i will create your own POS System-->
-<!--            for your business-->
-<!--        </pre>-->
-<!--            <img alt="There was an error loading this image" height="30" src="assests/icon/adobe_illustrator_48.png">-->
-<!--            <img alt="There was an error loading this image" height="30" src="assests/icon/adobe_photoshop_48.png">-->
-<!--            <img alt="There was an error loading this image" height="30" src="assests/icon/adobe_xd_48.png">-->
-
-<!--            <h5>see more>></h5>-->
-
-<!--        </section>-->
-<!--        <section>-->
-<!--            <h2><u>EXPERIENCE</u></h2>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <img alt="There was an error loading this image" height="80" src="assests/images/fiverr.png">-->
-<!--            <p>Work as Freelancer Since 2019 (Web Designing)</p>-->
-<!--            <h5>see more>></h5>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <img alt="There was an error loading this image" height="80" src="assests/images/freelancer.png">-->
-<!--            <p>Work as Freelancer Since 2019 (Web Designing)</p>-->
-<!--            <h5>see more>></h5>-->
-<!--        </section>-->
-
-<!--    </section>-->
-<!--    <section>-->
-<!--        <section>-->
-<!--            <section>-->
-<!--                <h2><u>LANGUAGES</u></h2>-->
-<!--                <nav>-->
-<!--                    <img alt="There was an error loading this image" height="48" src="assests/icon/back_48.png">-->
-<!--                    <img alt="There was an error loading this image" height="48" src="assests/icon/forward_48.png">-->
-
-<!--                </nav>-->
-<!--            </section>-->
-<!--            <section>-->
-<!--                <h3>PYTHON</h3>-->
-<!--                <pre>-->
-<!--            Python is an interpreted high-level-->
-<!--                general-purpose programming language.-->
-<!--                Its design philosophy emphasizes code-->
-<!--                readability with its use-->
-<!--                of significant indentation-->
-<!--        </pre>-->
-<!--                <img alt="There was an error loading this image" height="30" src="assests/icon/python_48.png">-->
-
-<!--                <h5>see more>></h5>-->
-
-<!--            </section>-->
-<!--            <section>-->
-<!--                <h2>JAVA</h2>-->
-<!--                <pre>-->
-<!--                Java is a high-level,-->
-<!--                class-based, object-oriented-->
-<!--                programming language-->
-
-<!--        </pre>-->
-<!--                <img alt="There was an error loading this image" height="30" src="assests/icon/java_48.png">-->
-
-<!--                <h4>see more>></h4>-->
-<!--            </section>-->
-<!--            <section>-->
-<!--                <h3>ANGULAR</h3>-->
-<!--                <pre>-->
-<!--            Angular is a TypeScript-based free and-->
-<!--                open-source web application framework-->
-<!--                led by the Angular Team at Google and-->
-<!--                by a community of individuals-->
-<!--                and corporations-->
-<!--        </pre>-->
-<!--                <img alt="There was an error loading this image" height="30" src="assests/icon/angularjs_48.png">-->
-
-<!--                <h5>see more>></h5>-->
-<!--            </section>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <section>-->
-<!--                <h2><u>TOOLS</u></h2>-->
-<!--                <nav><img alt="There was an error loading this image" height="48" src="assests/icon/forward_48.png"></nav>-->
-<!--            </section>-->
-<!--            <section>-->
-<!--                <img alt="There was an error loading this image" height="60" src="assests/icon/linux_128.png">-->
-<!--                <img alt="There was an error loading this image" height="60" src="assests/icon/git_128.png">-->
-<!--                <img alt="There was an error loading this image" height="60" src="assests/icon/mongodb_128.png">-->
-<!--                <img alt="There was an error loading this image" height="60" src="assests/icon/intellij_idea_128.png">-->
-<!--                <img alt="There was an error loading this image" height="60" src="assests/icon/figma_128.png">-->
-<!--                <img alt="There was an error loading this image" height="60"-->
-<!--                     src="assests/icon/visual_studio_code_2019_128.png">-->
-<!--            </section>-->
-<!--        </section>-->
-<!--    </section>-->
-<!--    <section>-->
-<!--        <section>-->
-<!--            <h2><u>EDUCATION</u></h2>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <nav>-->
-
-<!--            </nav>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <section>-->
-<!--                <pre>-->
-<!--                    Diploma In Software Engineering-->
-<!--                    Institute of Software Engineering-->
-<!--                    2021 - 2022-->
-<!--                </pre>-->
-<!--                <img alt="here was an error loading this image" height="100" src="assests/images/ijse.png">-->
-<!--            </section>-->
-<!--            <section>-->
-<!--                <pre>-->
-<!--                    Undergraduate-->
-<!--                    Bachelor of Information Technology (BIT)-->
-<!--                    University of Colombo (UCSC)-->
-<!--                    2019 - 2023-->
-<!--                </pre>-->
-<!--                <img alt="here was an error loading this image" height="100" src="assests/images/ucsc.png">-->
-<!--            </section>-->
-<!--            <section>-->
-<!--                <pre>-->
-<!--                    Secondary Education-->
-<!--                    Mahinda Colleage Galle-->
-<!--                    2014 - 2017-->
-<!--                </pre>-->
-<!--                <img alt="here was an error loading this image" height="100" src="assests/images/mahinda.png">-->
-<!--            </section>-->
-<!--            <section>-->
-<!--                <pre>-->
-<!--                    Primary Education-->
-<!--                    Royal Colleage Nagoda-->
-<!--                    2004 - 2014-->
-<!--                </pre>-->
-<!--                <img alt="here was an error loading this image" height="100" src="assests/images/nagoda.png">-->
-<!--            </section>-->
-<!--        </section>-->
-<!--    </section>-->
-<!--    <section>-->
-<!--        <section>-->
-<!--            <h2><u>PROJECTS AND ASSIGNMENT</u></h2>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <nav>-->
-<!--                <img alt="There was an error loading this image" height="48" src="assests/icon/back_48.png">-->
-<!--                <img alt="There was an error loading this image" height="48" src="assests/icon/forward_48.png">-->
-<!--            </nav>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <h4><pre>-->
-<!--                VEHICLE PARKING-->
-<!--                SYSTEM-->
-<!--            </pre>-->
-<!--            </h4>-->
-<!--            <img alt="There was an error loading this image" height="120" src="assests/images/parking_system.png">-->
-<!--            <h5>see more>></h5>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <h3><pre>-->
-<!--                CONSTRUCTION GRN-->
-<!--                MANAGEMENT-->
-<!--            </pre>-->
-<!--            </h3>-->
-<!--            <img alt="There was an error loading this image" height="150" src="assests/images/sight_Engineering.png">-->
-<!--            <h4>see more>></h4>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <h4><pre>-->
-<!--                SUPERMARKET POS-->
-<!--                SYSTEM-->
-<!--            </pre>-->
-<!--            </h4>-->
-<!--            <img alt="There was an error loading this image" height="120" src="assests/images/pos.png">-->
-<!--            <h5>see more>></h5>-->
-<!--        </section>-->
-<!--    </section>-->
-<!--    <section>-->
-<!--        <nav>ALL WEB DESIGN UI DESIGN PHOTOGRAPHY GRAPHIC DESIGN</nav>-->
-<!--        <section>-->
-<!--            <img alt="There was an error loading this image" height="180" src="assests/images/my3.JPG">-->
-<!--            <img alt="There was an error loading this image" height="180" src="assests/images/sight_Engineering.png">-->
-<!--            <img alt="There was an error loading this image" height="220" src="assests/images/my2.JPG">-->
-<!--            <img alt="There was an error loading this image" height="220" src="assests/images/my4.JPG">-->
-<!--            <img alt="There was an error loading this image" height="250" src="assests/images/my1.JPG" width="150">-->
-<!--        </section>-->
-<!--    </section>-->
-<!--    <section>-->
-<!--        <section>-->
-<!--            <h4>Full Name</h4>-->
-<!--            <h4>Email</h4>-->
-<!--            <h4>Type Here</h4>-->
-<!--            <h3>SEND ME</h3>-->
-<!--        </section>-->
-<!--        <section>-->
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/call_128.png">-->
-<!--            <h3>076-8383493</h3>-->
-
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/mail_128.png">-->
-<!--            <h4>yasirudahanayaka19@gmail.com</h4>-->
-
-<!--            <img alt="There was an error loading this image" height="40" src="assests/icon/Location_Pin_128.png">-->
-<!--            <h4>-->
-<!--                Yasiru Dahanayaka-->
-<!--                Paranathanayamgoda-->
-<!--                Mapalagama-->
-<!--                Galle-->
-<!--                Sri Lanka-->
-<!--            </h4>-->
-<!--        </section>-->
-<!--    </section>-->
-<!--</main>-->
-
-<!--<footer>-->
-<!--    <section>-->
-<!--        <h2>YASIRU DAHANAYAKA</h2>-->
-<!--    </section>-->
-<!--    <section>-->
-<!--        <img alt="There was an error loading this image" height="40" src="assests/icon/Facebook_yellow_128.png">-->
-<!--        <img alt="There was an error loading this image" height="40" src="assests/icon/instagram_yellow_128.png">-->
-<!--        <img alt="There was an error loading this image" height="40" src="assests/icon/linkedin_yellow_128.png">-->
-<!--        <img alt="There was an error loading this image" height="40" src="assests/icon/YouTube_yellow_128.png">-->
-<!--        <img alt="There was an error loading this image" height="40" src="assests/icon/github_yellow_128.png">-->
-<!--    </section>-->
-<!--    <section>-->
-<!--        <h4>Copyright © 2021 All Right Reserved By Yasiru Dahanayaka</h4>-->
-<!--    </section>-->
-<!--    <nav>-->
-
-<!--    </nav>-->
-
-<!--</footer>-->
-
+<script>
+    ScrollReveal.reveal('.text-1');
+</script>
+<script src="assests/script/script.js"></script>
 </body>
-
 </html>

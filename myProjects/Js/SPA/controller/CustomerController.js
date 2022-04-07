@@ -247,3 +247,11 @@ function setButton() {
 $('#btnCustomerSave').click(function () {
     checkIfValid();
 });
+
+
+function customerCount(){
+    for (var i = 0; i < customerDB.length; i++) {
+
+    }
+    $("#customerCount").text(i);
+}

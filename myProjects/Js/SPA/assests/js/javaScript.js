@@ -11,6 +11,7 @@ $("#linkItem").css('color', 'black');
 $("#linkOrder").css('color', 'black');
 $("#linkPurchaseOrder").css('color', 'black');
 
+
 $("#linkCustomer").click(function () {
     $("#dashboardContent").css("display", "none");
     $("#customerContent").css("display", "block");
@@ -54,6 +55,7 @@ $("#linkOrder").click(function () {
 
     setCurrentDate();
     generateOrderID();
+
 });
 
 $("#linkPurchaseOrder").click(function () {
@@ -85,6 +87,10 @@ $("#linkHome").click(function () {
     $("#linkItem").css('color', 'black');
     $("#linkOrder").css('color', 'black');
     $("#linkPurchaseOrder").css('color', 'black');
+
+    customerCount();
+    itemCount();
+    orderCount();
 });
 
 

@@ -245,3 +245,10 @@ function setItemButton() {
 $("#btnItemSave").click(function () {
     checkIfItemValid();
 });
+
+function itemCount(){
+    for (var i = 0; i < itemDB.length; i++) {
+
+    }
+    $("#itemCount").text(i);
+}
