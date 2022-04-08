@@ -29,7 +29,7 @@ $(document).ready(function (){
     // typing animation script
 
     var typed = new Typed(".typing",{
-        strings: ["Full Stack Developer", "Freelance", "Developer", "Designer", "Blogger", "Traveller"],
+        strings: ["Freelance", "Developer", "Designer", "Blogger", "Traveller"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -37,7 +37,7 @@ $(document).ready(function (){
     });
 
     var typed = new Typed(".typing-2",{
-        strings: ["Full Stack Developer", "Freelance", "Developer", "Designer", "Blogger", "Traveller"],
+        strings: ["Freelance", "Developer", "Designer", "Blogger", "Traveller"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -120,24 +120,4 @@ skillsHeader.forEach((el) =>{
 })
 
 
-
-
-// const tabs = document.querySelectorAll('[data-target]'),
-//     tabContents = document.querySelectorAll('[data-content]')
-//
-// tabs.forEach(tab =>{
-//     tab.addEventListener('click', () =>{
-//         const target = document.querySelector(tab.dataset.target)
-//
-//         tabContents.forEach(tabContent =>{
-//             tabContent.classList.remove('qualification-active')
-//         });
-//         target.classList.add('qualification-active')
-//
-//         tabs.forEach(tab =>{
-//             tab.classList.remove('qualification-active')
-//         });
-//         tab.classList.add('qualification-active')
-//     })
-// })
 
