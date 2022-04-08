@@ -75,6 +75,26 @@ html{
     color: #F0FFF3;
 }
 
+
+.loader-icon{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: #F1F2F3;
+    z-index: 99999;
+}
+
+.loader-icon img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+}
 /*menu button styling*/
 
 .menu-btn{

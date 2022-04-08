@@ -1,3 +1,8 @@
+$(window).on('load', function (){
+    // $(".loader-icon").css('display','none');
+    $(".loader-icon").fadeOut(1000);
+});
+
 $(document).ready(function (){
     $('.about-info-title').counterUp({
         delay:3,
