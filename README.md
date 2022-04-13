@@ -109,7 +109,7 @@ My Personal Web Mockup : https://www.figma.com/file/4Mi9Gi1ph4Pt56unERksye/Portf
 
 My Github Page Link : http://yasirudahanayaka.me/My-Profile/
 
-My Personal Profile : https://yasirudahanayaka2021.000webhostapp.com/
+My Personal Profile : http://yasirudahanayaka.epizy.com/
 
 Project Link: [https://github.com/YasiruLak/My-Profile](https://github.com/your_username/repo_name)
 
