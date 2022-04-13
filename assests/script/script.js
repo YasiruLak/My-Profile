@@ -4,11 +4,6 @@ $(window).on('load', function (){
 });
 
 $(document).ready(function (){
-    // $('.about-info-title').counterUp({
-    //     delay:1,
-    //     time:400
-    // });
-
 
     $(window).scroll(function (){
         if (this.scrollY > 20){
