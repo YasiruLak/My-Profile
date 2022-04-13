@@ -4,10 +4,10 @@ $(window).on('load', function (){
 });
 
 $(document).ready(function (){
-    $('.about-info-title').counterUp({
-        delay:3,
-        time:300
-    });
+    // $('.about-info-title').counterUp({
+    //     delay:1,
+    //     time:400
+    // });
 
 
     $(window).scroll(function (){
