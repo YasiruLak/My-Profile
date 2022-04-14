@@ -120,4 +120,26 @@ skillsHeader.forEach((el) =>{
 })
 
 
+//scroll reveal animation
 
+const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2800,
+})
+
+sr.reveal(`.social-icon, .text-1, .text-2, .text-3, .hire, .qualification-data, .serv-content, .item, .image1, .footer-bottom,
+ .row, .address, .fields, .footer-col, .logo, .footer-social, .footerP`,{
+    origin: 'top',
+    interval: 100,
+})
+
+
+sr.reveal(`.right`,{
+    origin: 'right',
+    interval: 100,
+})
+
+sr.reveal(`.left`,{
+    origin: 'left',
+    interval: 100,
+})
