@@ -1,0 +1,43 @@
+section {
+    width: 180px;
+    height: 80px;
+    background: red;
+    border-radius: 30px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@keyframes rotate {
+    0% {
+        left: 0;
+        top: 0;
+        background: red;
+    }
+    25% {
+        left: 1150px;
+        top: 0;
+        transform: rotate(90deg);
+        background: green;
+    }
+    50% {
+        left: 1150px;
+        top: 520px;
+        transform: rotate(180deg);
+        background: orangered;
+    }
+    75% {
+        left: 0;
+        top: 520px;
+        transform: rotate(270deg);
+        background: purple;
+    }
+    100% {
+        left: 0;
+        top: 0;
+        transform: rotate(360deg);
+        background: red;
+    }
+}

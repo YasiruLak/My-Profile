@@ -1,0 +1,53 @@
+body{
+    background: black;
+}
+#container{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 50%;
+    height: 80px;
+    position: relative;
+    top: 300px;
+    left: 25%;
+}
+#main{
+    display: flex;
+}
+.square{
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 10px;
+    height: 56px;
+    position: relative;
+    top:-47px;
+    margin: 1%;
+}
+.button{
+    width: 120px;
+    height: 30px;
+}
+#start{
+    position: relative;
+    left: 33%;
+    color: aliceblue;
+    border: none;
+    background-color: blue;
+    top: 0%;
+}
+#stop{
+    position: relative;
+    left: 35%;
+    top: 60%;
+    color: aliceblue;
+    border: none;
+    background-color: red;
+    top: 0%;
+}
+#heading{
+    text-align: center;
+    font-size:35px;
+    color: #ff253a;
+    left: 3%;
+    position: relative;
+    bottom: 85%;
+}
