@@ -508,6 +508,35 @@ section .title::after{
 .qualification-active[data-content]{
     display: block;
 }
+/*----------------------------------------------------------------------------------*/
+
+.education-content nav{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.education-content nav .qualification-tabs{
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.education-content nav .qualification-tabs .item{
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F0FFF3;
+    border: 2px solid #ffb432;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.education-content nav .qualification-tabs .active,
+.education-content nav .qualification-tabs .item:hover{
+    color: #F0FFF3;
+    background: #ffb432;
+}
 
 /*skills section styling*/
 
@@ -1444,6 +1473,10 @@ ul{
         margin: 5px;
     }
 
+    /*.education-content nav .eduItems .item{*/
+    /*    margin: 5px;*/
+    /*}*/
+
     .qualification-title{
         font-size: 18px;
         font-weight: 400;
@@ -1498,6 +1531,11 @@ ul{
         font-size: 10px;
     }
 
+    .about-info-title {
+        font-size: 34px;
+        font-weight: 400;
+    }
+
 }
 
 @media (max-width: 280px) {
@@ -1540,6 +1578,11 @@ ul{
 
     .qualification-calendar{
         font-size: 8px;
+    }
+
+    .about-info-title {
+        font-size: 30px;
+        font-weight: 400;
     }
 
 }

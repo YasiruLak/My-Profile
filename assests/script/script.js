@@ -101,6 +101,27 @@ window.onload = () =>{
 }
 
 
+const tabs = document.querySelectorAll('[data-target]'),
+    tabContents = document.querySelectorAll('[data-content]')
+
+tabs.forEach(tab =>{
+    tab.addEventListener('click', () =>{
+        const target = document.querySelector(tab.dataset.target)
+
+        tabContents.forEach(tabContent =>{
+            tabContent.classList.remove('qualification-active')
+        })
+
+        target.classList.add('qualification-active')
+
+        tab.forEach(tab =>{
+            tab.classList.remove('qualification-active')
+        })
+        tab.classList.add('qualification-active')
+    })
+})
+
+
 const skillsContent = document.getElementsByClassName('skills-content2'),
     skillsHeader = document.querySelectorAll('.skills-header');
 
@@ -128,7 +149,7 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.social-icon, .text-1, .text-2, .text-3, .hire, .qualification-data, .serv-content, .item, .image1, .footer-bottom,
- .row, .address, .fields, .footer-col, .logo, .footer-social, .footerP`,{
+ .row, .address, .fields, .footer-col, .logo, .footer-social, .footerP, .qualification-tabs`,{
     origin: 'top',
     interval: 100,
 })
