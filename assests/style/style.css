@@ -501,11 +501,11 @@ section .title::after{
     transform: translate(6px, -7px);
 }
 
-.qualification [data-content]{
+.item[data-content]{
     display: none;
 }
 
-.qualification-active[data-content]{
+.item_active[data-content]{
     display: block;
 }
 /*----------------------------------------------------------------------------------*/
@@ -522,7 +522,7 @@ section .title::after{
     justify-content: space-evenly;
 }
 
-.education-content nav .qualification-tabs .item{
+.education-content nav .qualification-tabs .button--flex{
     padding: 7px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -532,7 +532,8 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
-.education-content nav .qualification-tabs .active,
+
+.education-content nav .qualification-tabs .item_active,
 .education-content nav .qualification-tabs .item:hover{
     color: #F0FFF3;
     background: #ffb432;

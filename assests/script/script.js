@@ -102,24 +102,25 @@ window.onload = () =>{
 
 
 const tabs = document.querySelectorAll('[data-target]'),
-    tabContents = document.querySelectorAll('[data-content]')
+    tabContents = document.querySelectorAll('[data-content]');
 
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
-        const target = document.querySelector(tab.dataset.target)
+        const target = document.querySelector(tab.dataset.target);
 
         tabContents.forEach(tabContent =>{
-            tabContent.classList.remove('qualification-active')
-        })
+            tabContent.classList.remove('item_active');
+        });
 
-        target.classList.add('qualification-active')
+        target.classList.add('item_active');
 
-        tab.forEach(tab =>{
-            tab.classList.remove('qualification-active')
-        })
-        tab.classList.add('qualification-active')
-    })
-})
+        tabs.forEach(tab =>{
+            tab.classList.remove('item_active');
+        });
+
+        tab.classList.add('item_active');
+    });
+});
 
 
 const skillsContent = document.getElementsByClassName('skills-content2'),
