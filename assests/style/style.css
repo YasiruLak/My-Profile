@@ -505,7 +505,7 @@ section .title::after{
     display: none;
 }
 
-.item_active[data-content]{
+.active[data-content]{
     display: block;
 }
 /*----------------------------------------------------------------------------------*/
@@ -533,8 +533,8 @@ section .title::after{
     transition: all 0.3s ease-out;
 }
 
-.education-content nav .qualification-tabs .item_active,
-.education-content nav .qualification-tabs .item:hover{
+.education-content nav .qualification-tabs .active,
+.education-content nav .qualification-tabs .button--flex:hover{
     color: #F0FFF3;
     background: #ffb432;
 }
