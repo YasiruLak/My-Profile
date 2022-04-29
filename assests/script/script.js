@@ -109,16 +109,16 @@ tabs.forEach(tab =>{
         const target = document.querySelector(tab.dataset.target);
 
         tabContents.forEach(tabContent =>{
-            tabContent.classList.remove('item active');
+            tabContent.classList.remove('item-active');
         });
 
-        target.classList.add('item active');
+        target.classList.add('item-active');
 
         tabs.forEach(tab =>{
-            tab.classList.remove('item active');
+            tab.classList.remove('item-active');
         });
 
-        tab.classList.add('item active');
+        tab.classList.add('item-active');
     });
 });
 
