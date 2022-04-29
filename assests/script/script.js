@@ -150,7 +150,9 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.social-icon, .text-1, .text-2, .text-3, .hire, .qualification-data, .serv-content, .item, .image1, .footer-bottom,
- .row, .address, .fields, .footer-col, .logo, .footer-social, .footerP, .qualification-tabs`,{
+ .row, .address, .fields, .footer-col, .logo, .footer-social, .footerP, .qualification-tabs, .field, .button, .skillsP, .readMore,
+ .skills-title, .skills-subtitles, .skills-arrow, .creativeText, .skills-name, .skills-number, .skills-bar, .skills-icon,
+ .aboutP, .aboutText, .downloadCV, .about-info-title, .about-info-name`,{
     origin: 'top',
     interval: 100,
 })
