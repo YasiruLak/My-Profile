@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{cba6695e4b, overlay-widget}" />
+    <file url="PROJECT" libraries="{Counter-Up, OwlCarousel2, font-awesome, jquery-3.6.0, line, overlay-widget, scrollreveal, typed.js, waypoints}" />
   </component>
 </project>

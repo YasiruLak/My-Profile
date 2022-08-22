@@ -81,10 +81,10 @@ const  filterImg = document.querySelectorAll(".image1");
 
 window.onload = () =>{
     filterItem.onclick = (selectedItem)=>{
-    if (selectedItem.target.classList.contains("item")){
-        filterItem.querySelector(".active").classList.remove("active");
-        selectedItem.target.classList.add("active");
-        let filterName = selectedItem.target.getAttribute("data-name");
+        if (selectedItem.target.classList.contains("item")){
+            filterItem.querySelector(".active").classList.remove("active");
+            selectedItem.target.classList.add("active");
+            let filterName = selectedItem.target.getAttribute("data-name");
             filterImg.forEach((image1)=>{
                 let filterImages = image1.getAttribute("data-name");
                 if ((filterImages == filterName) || filterName == "all"){
@@ -151,14 +151,13 @@ const sr = ScrollReveal({
 
 sr.reveal(`.social-icon, .text-1, .text-2, .text-3, .hire, .qualification-data, .serv-content, .item, .image1, .footer-bottom,
  .row, .address, .fields, .footer-col, .logo, .footer-social, .footerP, .qualification-tabs, .field, .button, .skillsP, .readMore,
- .creativeText,
- .aboutP, .aboutText, .downloadCV, .about-info-title, .about-info-name`,{
+ .creativeText,.aboutP, .aboutText, .downloadCV, .about-info-title, .about-info-name`,{
     origin: 'top',
     interval: 100,
 })
 
 
-sr.reveal(`.right`,{
+sr.reveal(`.right,.column right`,{
     origin: 'right',
     interval: 100,
 })
